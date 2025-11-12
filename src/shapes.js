@@ -30,8 +30,12 @@ class Rectangle extends Shape {
   }
 }
 
-class Square {
-
+class Square extends Rectangle {
+  constructor(side) {
+    super(side, side);
+    this.type = "Square";
+    this.side = side;
+  }
 }
 
 module.exports = {
