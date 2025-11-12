@@ -19,8 +19,15 @@ class Circle extends Shape {
   }
 }
 
-class Rectangle {
-
+class Rectangle extends Shape {
+  constructor(length, width) {
+    super("Rectangle")
+    this.length = length;
+    this.width = width;
+  }
+  getArea() {
+    return this.length * this.width;
+  }
 }
 
 class Square {
