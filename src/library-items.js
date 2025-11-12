@@ -30,8 +30,15 @@ class Book extends LibraryItem {
   }
 }
 
-class DVD {
-
+class DVD extends LibraryItem {
+  constructor(title, year, director, runtime) {
+    super(title, year);
+    this.director = director;
+    this.runtime = runtime;
+  }
+  getDescription() {
+    return `${super.getDescription()} directed by ${this.director}, ${this.runtime} min`
+  }
 }
 
 class Magazine {
