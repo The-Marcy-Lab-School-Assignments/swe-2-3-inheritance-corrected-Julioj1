@@ -1,10 +1,10 @@
 {
   "testScores": {
     "Shapes Tests": {
-      "ShTe1": 0,
-      "ShTe2": 0,
-      "ShTe3": 0,
-      "ShTe4": 0,
+      "ShTe1": 1,
+      "ShTe2": 1,
+      "ShTe3": 1,
+      "ShTe4": 1,
       "ShTe5": 0,
       "ShTe6": 0,
       "ShTe7": 0,
@@ -97,8 +97,8 @@
     "Library Items Tests Magazine uses inheritance properly": "LiItTe19"
   },
   "humanReadable": {
-    "Shapes Tests": "0/10",
-    "finalTestScore": "FINAL SCORE: 0/29",
+    "Shapes Tests": "4/10",
+    "finalTestScore": "FINAL SCORE: 4/29",
     "Library Items Tests": "0/19"
   }
 }
