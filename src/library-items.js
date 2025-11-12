@@ -41,8 +41,14 @@ class DVD extends LibraryItem {
   }
 }
 
-class Magazine {
-
+class Magazine extends LibraryItem {
+  constructor(title, year, issue) {
+    super(title, year);
+    this.issue = issue;
+  }
+  getDescription() {
+    return `${super.getDescription()} Issue #${this.issue}`
+  }
 }
 
 module.exports = {
