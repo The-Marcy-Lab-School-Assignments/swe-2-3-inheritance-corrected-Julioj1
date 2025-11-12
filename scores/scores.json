@@ -17,11 +17,11 @@
       "LiItTe2": 1,
       "LiItTe3": 1,
       "LiItTe4": 1,
-      "LiItTe5": 0,
-      "LiItTe6": 0,
-      "LiItTe7": 0,
-      "LiItTe8": 0,
-      "LiItTe9": 0,
+      "LiItTe5": 1,
+      "LiItTe6": 1,
+      "LiItTe7": 1,
+      "LiItTe8": 1,
+      "LiItTe9": 1,
       "LiItTe10": 0,
       "LiItTe11": 0,
       "LiItTe12": 0,
@@ -98,7 +98,7 @@
   },
   "humanReadable": {
     "Shapes Tests": "10/10",
-    "finalTestScore": "FINAL SCORE: 14/29",
-    "Library Items Tests": "4/19"
+    "finalTestScore": "FINAL SCORE: 19/29",
+    "Library Items Tests": "9/19"
   }
 }

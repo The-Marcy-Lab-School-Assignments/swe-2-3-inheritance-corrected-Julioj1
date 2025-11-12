@@ -19,8 +19,15 @@ class LibraryItem {
   }
 }
 
-class Book {
-
+class Book extends LibraryItem {
+  constructor(title, year, author, pages) {
+    super(title, year)
+    this.author = author;
+    this.pages = pages;
+  }
+  getDescription() {
+    return `${super.getDescription()} by ${this.author}, ${this.pages} pages`
+  }
 }
 
 class DVD {
